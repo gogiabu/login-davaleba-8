@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    background-image: url("illustration\ \(4\).png");
+    background-repeat: no-repeat;
+    background-size: 57% ;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("NunitoSans_10pt-Regular.ttf");
+}
+.container{
+    position: absolute;
+    right: 0;
+    width: 43%;
+    height: 100vh;
+}
+.box1{
+    height: 708px;
+    margin-top: 18%;
+    margin-left: 140px;
+    background-color: #FFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+.flag{
+    width: 72px;
+    height: 72px;
+}
+.satauri{
+    margin: 0;
+    margin-top: 30px;
+    color: #525252;
+    font-size: 36px;
+    font-weight: 700;
+}
+.paragrafi1{
+    margin: 0;
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section2{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    margin-top: 32px;
+}
+.googlelink{
+    color: var(--Gray-3, #828282);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 13px;
+}
+.googleimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+.paragrafi2{
+    width: 420px;
+    color: #A1A1A1;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+.section3{
+    position: relative;
+    margin-top: 30px;
+    width: 420px;
+    height: 68px;
+}
+.label{
+    color: var(--Gray-3, #828282);
+    font-size: 14px;
+    font-weight: 600;
+}
+.inputemail{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+}
+.envelope{
+    width: 25px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 33px;
+}
+.inputemail::placeholder{
+    padding-left: 10px;
+    color: var(--Gray-5, #E0E0E0);
+    font-size: 14px;
+    font-weight: 400;
+}
+#section4{
+    margin-top: 24px;
+}
+.inputpassword{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #DED2D9;
+}
+.key{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+.inputpassword::placeholder{
+    color: var(--Gray-5, #E0E0E0);
+    font-size: 10px;
+    font-weight: 400;
+    transform: translateY(2.5px);
+}
+.section5{
+    display: flex;
+    align-items: baseline;
+}
+.check{
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+}
+.paragrafi3{
+    color: #A1A1A1;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.forgot{
+    color: #7F265B;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 218px;
+    margin-top: 8px;
+}
+.button{
+    margin-top: 32px;
+    width: 420px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #7F265B;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+}
+.paragrafi4{
+    color: var(--Gray-3, #828282);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 52px;
+}
+.account{
+    color: #7F265B;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+}
